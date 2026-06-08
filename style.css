@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#9e7ddc, #bc97d9);
+    font-family: "Poppins", sans-serif;
+}
+
+
+.mainBox{
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(180deg, #1a2344, #8a4dad);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* //box-1 */
+.weather{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.forecast{
+    font-size: 50px;
+    font-weight: 300;
+    color: #ddb130;
+}
+
+.start{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #ddb130;
+    color: black;
+    border: none;
+}
+
+.start:hover{
+    background-color: #f4c842;
+    transform: scale(1.02);
+    transform-origin: all 0.1s ease-in-out; 
+    /* //transition */
+}
+
+
+/* //box-1 */
+.searchBox{
+    height: 40px;
+    width: 280px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.searchBox input{
+    height: 40px;
+    width: 230px;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 5px;
+    border: none;
+}
+
+.searchBox img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+.iconBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.iconBox img{
+    width: 180px;
+}
+
+.tempBox{
+    height: 100px;
+    width: 280px;
+    text-align: center;
+}
+
+#temp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#city{
+    font-size: 30px;
+    font-weight: 300;
+    color: #ddb130;
+}
+
+.extraDetails{
+    height: 100px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wind, .humidity{
+    display: flex;
+    align-items: center;
+}
+
+#windIcon, #humidityIcon{
+    width: 50px;
+    margin-right: 5px;
+}
+
+#windSpeed, #humidityPer{
+    font-weight: bold;
+}
+
+.homeBtn{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #ddb130;
+    color: black;
+    border: none;
+}
+
+.homeBtn:hover{
+    background-color: #f4c842;
+    transform: scale(1.02);
+    transform-origin: all 0.1s ease-in-out; 
+    /* //transition */
+}
+
+#info{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.inactive{
+    display: none;
+}
